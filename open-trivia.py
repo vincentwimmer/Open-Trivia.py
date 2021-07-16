@@ -40,6 +40,7 @@ for qnum in range(rounds):
 
 	while True:
 		val = input("Enter your value: ")
+		val = val.lower()
 
 		try:
 			if ansDict[val] == getQ['correct_answer']:
